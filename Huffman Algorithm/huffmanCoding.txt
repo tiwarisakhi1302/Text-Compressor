@@ -1,0 +1,30 @@
+Huffman Coding
+
+It is a lossless data Compression algorithm.
+(No data is lost during the decoding).
+We assign variable length codes to input character, legth of which depends on 
+frequency of the character
+The variable-length codes assigned to input characters posses Prefix Property
+which requires that there is no whole code word int the system that is a prefix
+of any other code word in the system.
+For example a code with code word 
+{0, 11} contains the prefix property.
+{0, 1, 11} does not contain the prefix property as 1 is the prefix of 11.
+This property make sure that our data is uniquely decodable.
+
+
+Approach
+
+Huffman Tree
+1.Create a leaf node for each unique charactefr and build a min heap of all 
+leaf nodes.
+2.Extract 
+
+
+
+
+
+
+
+
+
